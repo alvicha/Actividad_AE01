@@ -15,11 +15,12 @@ session_destroy();
 <head>
     <meta charset="UTF-8">
     <title>Partida perdida</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="perdida.css">
 </head>
 
 <body>
     <div class="container">
+        <h1>GAME OVER</h1>
         <p>Lo siento, has perdido. La palabra era <?php echo $palabra; ?></p>
         <a href="index.php" class="button-play">Jugar de nuevo</a>
     </div>
